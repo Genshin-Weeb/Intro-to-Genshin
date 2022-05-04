@@ -85,9 +85,6 @@ div.contain_ToC {
 	background-color: rgba(28, 21, 36, .85);
 	margin-right: 80%;
 	width: 200px;
-	grid-column: 1;
-	grid-row: 2;
-	display: none;
 }
 div.ToC {
 	position: sticky;
@@ -108,7 +105,7 @@ div.empty {
 	grid-row: 1;
 }
 .grid_container {
-	display: grid;
+	display: none;
 	gap: 15px;
 	border: none;
 	background-color: rgba(0, 0, 0, .0)
