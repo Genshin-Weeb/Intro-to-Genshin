@@ -79,12 +79,6 @@ div.body {
 	grid-row: 2;
 }
 div.contain_ToC {
-	border: 2px solid:
-	border-radius: 5px;
-	padding: 5px;
-	background-color: rgba(28, 21, 36, .85);
-	margin-right: 80%;
-	width: 200px;
 }
 div.ToC {
 	position: sticky;
