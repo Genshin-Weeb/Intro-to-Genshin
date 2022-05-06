@@ -1,0 +1,143 @@
+/* General Setup */
+
+body {
+	background-image: 			url("assets/background.png");
+	background-attachment:		fixed;
+	background-color: 			#2e0f33; 
+	color: 						#e6e6e6;
+	margin: 					50px 200px;
+	font-family: 				genshin;
+	line-height: 				110%;
+}
+
+@font-face {
+	font-family: 				genshin;
+	src: 						url("assets/genshin_font.ttf");
+}
+
+/* id Setup */
+
+#grid {
+	display: 					grid;
+	gap: 						15px;
+	border: 					none;
+	background-color:			rgba(0, 0, 0, .0)
+}
+
+#header {
+	grid-row: 					1;
+	grid-column: 				1 / span 2;
+	background-color: 			transparent;
+}
+
+#footnote {
+	font-size: 					10px;
+	padding: 					0px;
+	margin-top: 				-62px;
+	text-indent: 				0px;
+} 
+
+#tocBorder {
+	border: 					2px solid;
+	border-radius: 				5px;	
+	padding: 					5px;
+	background-color: 			rgba(28, 21, 36, .85);
+	width: 						200px;
+	grid-row:					2;
+	grid-column: 				1;
+}
+
+#toc {
+	position: 					sticky;
+	top: 						0;
+	border: 					none;
+	padding: 					5px;
+	background-color: 			transparent;
+	height: 					150px;
+	width:						190px;
+	line-height: 				150%;
+}
+
+#body {
+	border: 					2px solid;
+	border-radius: 				5px;
+	padding: 					5px;
+	background-color: 			rgba(28, 21, 36, .85);
+	grid-row: 					2;
+	grid-column: 				2;
+	
+}
+
+#copyright {
+	font-size: 					10px;
+	grid-row: 					3;
+	grid-column: 				1;
+}
+
+/* div Setup */
+
+.note {
+	color: 						#efdff5;
+	font-size: 					12px;
+	font-family: 				genshin;
+}
+
+.empty {
+	border:						none;
+	background-color: 			rgba(0, 0, 0, .0)
+}
+
+/* Common Element Setup */
+
+p {
+	text-indent: 				20px;
+	padding-left: 				30px;
+	padding-right: 				30px;
+}
+
+em {
+	color: #e4aee6;
+	font-family: 				genshin;
+}
+
+a {
+	color: #ae73bd; 
+	text-decoration: 			none;
+	active-color: 				#8b499c;
+	hover-color: 				#e7bbf2;
+}
+
+img {
+	padding-left: 				30px;
+	padding-right: 				30px;
+	width: 						500px;
+}
+
+/* Header Setup */
+
+h1 {
+	font-size: 					65px;
+	line-height: 				120%;
+	border-bottom: 				3px solid;
+}
+
+h2 {
+	font-size: 					18px;
+	padding-left: 				12px;
+}
+
+h3 {
+	color: 						#ffd9fa;
+	font-size: 					18px;
+	border-bottom: 				2px solid;
+	padding-left: 				15px;
+}
+
+h4{
+	font-size: 					14px;
+	padding-left: 				15px;
+}
+
+h5{
+	text-indent: 				25px;
+}
