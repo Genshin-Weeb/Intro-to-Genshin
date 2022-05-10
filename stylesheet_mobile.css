@@ -4,6 +4,8 @@ body {
 	background-image: 			url("assets/mobile_background.png");
 	background-attachment: 			fixed;
 	background-color: 			#2e0f33; 
+	background-repeat:			no-repeat;
+	background-size: 			auto;
 	color: 					#e6e6e6;
 	margin: 				30px 50px;
 	font-family: 				genshin;
