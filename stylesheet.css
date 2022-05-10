@@ -56,6 +56,7 @@ body {
 	height: 					150px;
 	width:						190px;
 	line-height: 				150%;
+	margin-left: 				-10px;
 }
 
 #body {
@@ -74,7 +75,18 @@ body {
 	grid-column: 				1;
 }
 
-/* div Setup */
+/* class Setup */
+
+.icon {
+	width:						20px;
+	padding:					0px;
+	margin-bottom:				-4px;
+}
+
+p.list {
+	margin-left:				100px;
+	text-indent:				-80px;
+}
 
 .note {
 	color: 						#efdff5;
@@ -96,7 +108,7 @@ p {
 }
 
 em {
-	color: #e4aee6;
+	color: 						#e4aee6;
 	font-family: 				genshin;
 }
 
@@ -111,6 +123,10 @@ img {
 	padding-left: 				30px;
 	padding-right: 				30px;
 	width: 						500px;
+}
+
+li {	
+	padding-left: 				20px;
 }
 
 /* Header Setup */
